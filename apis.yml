@@ -1,8 +1,28 @@
 aid: star-catcher
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/star-catcher.png
 name: Star Catcher
-description: 'Star Catcher is a company surfaced as a portfolio company of initialized-capital and added
-  to the API Evangelist network as a stub for enrichment. Sector: frontier-tech. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  Star Catcher is a space technology company building the first power grid in
+  space. Its optical power beaming system, the Star Catcher Network, concentrates
+  and transmits solar energy directly to satellites' existing solar arrays,
+  delivering up to 10x more power without any hardware modifications. Founded in
+  2024 and backed by Initialized Capital, the company holds a world record for
+  optical power beaming and is working to bring shared orbital power
+  infrastructure to satellites supporting universal connectivity, advanced
+  computing, and national security. Star Catcher raised $65 million in May 2026
+  and plans to bring its technology to orbit. Star Catcher operates physical
+  space hardware and does not currently publish a public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/star-catcher/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Frontier Tech
+- Space
+- Satellites
+- Power Beaming
+- Energy
+- Space Infrastructure
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,18 @@ maintainers:
 common:
 - type: Website
   url: https://star-catcher.com/
+- type: Blog
+  url: https://star-catcher.com/updates
+- type: Support
+  url: https://star-catcher.com/contact
+- type: PrivacyPolicy
+  url: https://star-catcher.com/privacy-policy
+- type: TermsOfService
+  url: https://star-catcher.com/terms
+- type: DomainSecurity
+  url: security/star-catcher-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
